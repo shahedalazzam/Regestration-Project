@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/profile.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div class="container-fluid" id="menu">
+        <a class="navbar-brand" href="#" id="logo">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse containerMenuList" id="navbarNav" >
+            <ul class="navbar-nav" id="menuList">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Quiz</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Result</a>
+            </li>
+            </ul>
+            <img src="/assets/nav.png" alt="" id="profileImage">
+        </div>
+        </div>
+    </nav>
+    <main>
+        <div id="profileEdit">
+        <div class="profileImage"><img src="/assets/nav.png" alt="user Image" id="rotatImage"></div>
+        <button type="submit" id="done">Done</button>
+    </div>
+        <div class="container ms-5 container-circle">
+            <div class="row first-section">
+                <div class="col-lg-5 col-md-5 col-sm-12  left">
+                    <div id="userName">
+                        <div class="data">
+                            <img src="/assets/name.png" alt="" class="userNameIcon jump">
+                            <div class="text"><input type="text" placeholder="Add your Name"></div>
+                            <div class="addName">
+                                <button class="add">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-plus-lg" viewBox="0 0 16 16" class="plus">
+                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="userDate">
+                        <div class="data">
+                            <img src="/assets/balloon.png" alt="Birthday Date" class="DateIcon jump">
+                            <div class="text"><input type="text" placeholder="Add Birthday Date"></div>
+                            <div class="addDate">
+                                <button class="add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-plus-lg" viewBox="0 0 16 16" class="plus">
+                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                    </svg>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 mid">
+                    <div id="user">
+                        <img src="/assets/nav.png" alt="user Name" id="userMid">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 right">
+                    <div id="userNumber">
+                        <div class="data">
+                            <img src="/assets/phone.png" alt="user Number" class="numberIcon jump" >
+                            <div class="text"><input type="text" placeholder="Add phone number"></div>
+                            <div class="addNumber">
+                                <button class="add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-plus-lg" viewBox="0 0 16 16" class="plus">
+                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                    </svg>
+                                    </button>
+                            </div>
+                          </div>
+                          
+                    </div>
+                    <div id="userLocation">
+                        <div class="data">
+                            <img src="/assets/location.png" alt="user Location" class="locationIcon jump">
+                            <div class="text"><span><input type="text" placeholder="Add your location"></div>
+                            <div class="addLocation">
+                                <button class="add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-plus-lg" viewBox="0 0 16 16" class="plus">
+                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                    </svg>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </main>
+    <div class="row footer-row gx-0">
+        <div class="col footer-logo" >logo</div>
+        <div class="col footer-links" >
+            <ul>
+                <p>links</p>
+                <a href="#">Home</a><br>
+                <a href="#">Quiz</a><br>
+                <a href="#">Results</a>
+
+            </ul>
+        </div>
+        <div class="col footer3-join">
+            <p>Join us</p>
+            <div class="icons">
+            <img src="/assets/icon__facebook_.svg" alt="">
+            <img src="/assets/icon__instagram_.svg" alt="">
+            <img src="/assets/icon__youtube_.svg" alt="">
+            </div>
+            <span class="small-text">join us to know more</span>
+        </div>
+        <div class="col footer3-img">
+            <img src="/assets/Group_553.svg" alt="">
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="/profile.js"></script>
+</html>

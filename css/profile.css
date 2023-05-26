@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #FCFBFD;
+font-family: 'Lato', sans-serif;
+}
+#logo{
+font-family: 'Wendy One', sans-serif;
+font-size: 30px;
+width: 15%;
+color: #55538A;
+}
+#nav{
+border-radius: 100px;
+padding: 5px 15px;
+background-color: #fff;
+margin: 10px 64px;
+}
+#menu{
+gap: 1gap;
+}
+#menuList{
+gap:1rem;
+}
+#menuList a{
+font-weight: 600;
+color: #55538A;
+border-radius:50px ;
+ }
+#profileImage{
+width: 47px;
+}
+.containerMenuList{
+justify-content: space-between;
+}
+#done{
+border: none;
+color: #fff;
+padding: 5px;
+width: 100px;
+height: 50px;
+border-radius: 50px;
+background-color: #2364AE;
+font-size: 24px;
+margin: 1% 0 0 88%;
+}
+#done:hover{
+    color:#2364AE;
+    background-color:#fff ;
+    border: 2px solid  #2364AE;
+}
+.profileImage{
+    display: none;
+}
+input{
+width: 100%;
+border: none;
+background-color: #ccf6ff;
+}
+::placeholder{
+font-size: 10px;
+text-align: center;
+}
+#userName{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+background-color: #00B5E8;
+box-shadow: 0px 11px 19px rgba(0, 0, 0, 0.25);
+position: relative;
+padding: 10px;
+}
+#userName button{
+    background-color: #00B5E8;
+}
+#userNumber{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+background-color: #FF2D20;
+box-shadow: 0px 11px 19px rgba(0, 0, 0, 0.25);
+position: relative;
+padding: 10px;
+}
+#userNumber button{
+    background-color: #FF2D20;
+}
+#userDate{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+background-color: #90489C;
+box-shadow: 0px 11px 19px rgba(0, 0, 0, 0.25);
+position: relative;
+padding: 10px;
+}
+#userDate button{
+background-color: #90489C;
+}
+#userLocation{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+background-color: #FFB700;
+box-shadow: 0px 11px 19px rgba(0, 0, 0, 0.25);
+position: relative;
+padding: 10px;
+}
+#userLocation button{
+    background-color: #FFB700;
+}
+.add{
+    border: none;
+    background-color: none;
+}
+.circleLeft{
+display: flex;
+justify-content: end;
+}
+.circleRight{
+display: flex;
+justify-content: start;
+}
+.circle{
+display: flex;
+justify-content: center;
+}
+#user img{ display: flex; justify-content: center; width: 120px; margin-left: 2rem; transition: transform 0.5s; -webkit-transition: transform 0.5s; -moz-transition: transform 0.5s; -ms-transition: transform 0.5s; -o-transition: transform 0.5s;
+}
+#user img:hover{
+transform: rotate(360deg);
+}
+#profileEdit{ transition: transform 1.5s; -webkit-transition: transform 2s; -moz-transition: transform 1.5s; -ms-transition: transform 1.5s; -o-transition: transform 1.5s;
+}
+#rotatImage:hover{
+transform: rotate(360deg);
+}
+.container-circle{
+    animation: enterFromLeft 3s forwards;
+    -webkit-animation: enterFromLeft 3s forwards;
+}
+@keyframes enterFromLeft {
+from {
+transform: translateX(-100%);
+}
+to {
+transform: translateX(0);
+}
+}
+@keyframes jumpAnimation {
+0% {
+transform: translateY(0);
+}
+50% { transform: translateY(-30px); -webkit-transform: translateY(-30px); -moz-transform: translateY(-30px); -ms-transform: translateY(-30px); -o-transform: translateY(-30px);
+}
+100% {
+transform: translateY(0);
+}
+}
+.jump{ animation: jumpAnimation 1s 3s; -webkit-animation: jumpAnimation 1s 3s;
+}
+#userMid{
+    animation: jumpAnimation 1.5s 3s;
+    -webkit-animation: jumpAnimation 1.5s 3s;
+}
+.text{
+background-color: #CCF6FF;
+padding: 5px;
+border-radius: 15px;
+width: 6rem;
+text-align: center;
+color: #9A9A9A;
+}
+.userNameIcon{
+width: 75px;
+}
+.DateIcon{
+width: 75px;
+}
+.numberIcon{
+width: 80px;
+}
+.locationIcon{
+width: 75px;
+}
+.data{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+height: 90%;
+}
+.data span{
+    font-size: 10px;
+}
+.left{
+display: flex;
+flex-direction: column;
+align-items: end;
+justify-content: space-between;
+}
+.right{
+display: flex;
+flex-direction: column;
+gap: 7rem;
+}
+.mid{
+align-self: center;
+}
+.addName{
+width: 30px;
+height: 30px;
+border-radius: 100%;
+background-color: #00b5e8;
+z-index: 4;
+position: absolute;
+bottom: 19px;
+right: 8px;
+}
+.plus{
+z-index: 5;
+right: -3px;
+position: relative;
+}
+.edit{
+    z-index: 5;
+    right: -3px;
+    position: relative;
+}
+.addDate{
+width: 30px;
+height: 30px;
+border-radius: 100%;
+background-color: #90489C;
+z-index: 4;
+position: absolute;
+bottom: 19px;
+right: 8px;
+}
+.addNumber{
+width: 30px;
+height: 30px;
+border-radius: 100%;
+background-color: #FF2D20;
+z-index: 4;
+position: absolute;
+bottom: 19px;
+right: 8px;
+}
+.addLocation{
+width: 30px;
+height: 30px;
+border-radius: 100%;
+background-color: #FFB700;
+z-index: 4;
+position: absolute;
+bottom: 19px;
+right: 8px;
+}
+.footer-row{
+    margin-top:10rem;
+    background-color: #CCF6ff;
+    width: 100%;
+}
+.footer-logo{
+    font-family: 'Wendy One', sans-serif;
+    color: #55538A;
+    font-size: 4rem;
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    margin-left: 2rem;
+}
+ul p{
+    font-family: 'Wendy One', sans-serif;
+    color: #F7941F;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+ul a {
+    text-decoration: none;
+    color: #55538A;
+    margin-left: 7px;
+}
+.footer3-join{
+    display: flex;
+    flex-direction: column;
+    gap: 10PX;
+}
+.footer3-join img{
+    width: 10%;
+}
+.footer3-join P{
+    font-family: 'Wendy One', sans-serif;
+    color: #F7941F;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-left:10px ;
+ 
+}
+.small-text{
+    font-family: 'Lato', sans-serif;   
+    font-size: 16px;
+    color: #55538A;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+}
+.footer3-img {
+    display: grid;
+    align-items: end;
+}
+.footer3-img img{
+    width: 70%;
+    justify-self: center;
+}
+#menuList a:hover{
+    color: #dedee5;
+    background-color:#55538A ;
+    border-radius: 50px;
+}
+@media(max-width:768px){
+body{
+padding: 0;
+}
+#nav{
+border-radius: 0;
+margin: 0;
+}
+.humberger{
+color: #55538A !important;
+}
+#done {
+padding: 2px;
+width: 50px;
+height: 50px;
+border-radius: 50px;
+font-size: 16px;
+margin: 2% 0 2% 0;
+}
+.profileImage{
+display:inline-block;
+}
+.profileImage img{
+width: 75px;
+height: 75px;
+border-radius: 50px;
+}
+.mid{
+display: none;
+}
+.left {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+gap: 7rem;
+}
+.right {
+align-items: center;
+}
+.container-circle{
+margin-left: 0 !important;
+}
+.first-section{
+gap: 7rem;
+}
+#profileEdit{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.footer3-join img {
+    width: 26%;
+}
+}

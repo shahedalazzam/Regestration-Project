@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap%27');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#h1 {
+    font-family: 'Wendy One', sans-serif;
+}
+
+#h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.span {
+    color: red;
+}
+
+img {
+    height: 19rem !important;
+}
+
+#card-body {
+    padding: 0 !important;
+}
+
+.img-custom-fluid {
+    max-width: 22rem !important;
+    z-index: 100;
+    margin-left: -7.9rem;
+}
+
+.form {
+    margin-left: -4%
+}
+
+.card {
+    box-shadow: 3px 6px 11px rgba(67, 67, 67, 0.25);
+
+}
+
+#Condition {
+    font-size: 11px;
+    margin-top: 16px !important;
+    margin-bottom: 1rem;
+
+}
+
+.check {
+
+    width: 12px;
+    height: 12px;
+}
+
+.checkb {
+    align-items: center;
+    margin-left: 2rem !important;
+}
+
+#button {
+    background-color: #5BDCFE;
+    font-family: 'Lato', sans-serif;
+    border-radius: 3rem;
+    height: 2rem;
+    font-size: 12px;
+}
+
+#last {
+    color: #ACACAC;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.SignUp {
+    margin-bottom: 0rem !important;
+}
+
+.btn1 {
+    background-color: #fff;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 5px;
+    border: 1px solid #D0D0D0;
+}
+
+.btn2 {
+    background-color: #fff;
+    width: 7rem;
+    border-radius: 5px;
+    border: 1px solid #D0D0D0;
+}
+/* small{
+    margin-left:0.5rem ;
+    color: red;
+} */
+.form p{
+    margin-bottom: 0 !important;
+    margin-left:0.5rem ;
+    color: red;
+}
+
+@media (max-width: 321px) {
+    .img-custom-fluid {
+        margin-left: 0;
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 426px) {
+    .img-custom-fluid{
+        margin-left: 0;
+        display: none;
+    }
+    
+}
+
+@media (max-width: 769px) {
+    .img-custom-fluid{
+        margin-left: 0;
+        display: none;
+    }
+    .alt-sign{
+        margin-left: 0;
+        justify-content: center;
+    }
+    
+}
